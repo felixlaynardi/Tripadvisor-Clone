@@ -1,4 +1,4 @@
-import { IonFooter, IonTitle, IonToolbar, IonRow, IonCol, useIonViewDidEnter } from '@ionic/react';
+import { IonRow, IonCol } from '@ionic/react';
 import { MdLocalHotel } from "react-icons/md";
 import { GrTicket, GrChatOption } from "react-icons/gr";
 import { GiKnifeFork } from "react-icons/gi";
@@ -30,50 +30,50 @@ const Explore: React.FC = () => {
             
         </IonCol>
         <IonCol size='12' className='explore-content'>
-            <h1 className='explore-content-title'>Small batch stays</h1>
+            <h2 className='explore-content-title'>Small batch stays</h2>
             <h6 className='explore-content-subtitle'>Cool cities, cooler boutique hotels</h6>
             <div className='explore-content-images-container'>
-                <div className="location-images location-images-amsterdam">
-                    <div className="location-images-title">
+                <div className="explore-location-images explore-location-images-amsterdam">
+                    <div className="explore-location-images-title">
                         <h1>Amsterdam</h1>
                     </div>
                 </div>
-                <div className="location-images location-images-berlin">
-                    <div className="location-images-title">
+                <div className="explore-location-images explore-location-images-berlin">
+                    <div className="explore-location-images-title">
                         <h1>Berlin</h1>
                     </div>
                 </div>
-                <div className="location-images location-images-london">
-                    <div className="location-images-title">
+                <div className="explore-location-images explore-location-images-london">
+                    <div className="explore-location-images-title">
                         <h1>London</h1>
                     </div>
                 </div>
-                <div className="location-images location-images-zermatt">
-                    <div className="location-images-title">
+                <div className="explore-location-images explore-location-images-zermatt">
+                    <div className="explore-location-images-title">
                         <h1>Zermatt</h1>
                     </div>
                 </div>
             </div>
-            <h1 className='explore-content-title explore-content-title-margin'>Plan your next escape</h1>
+            <h2 className='explore-content-title explore-content-title-margin'>Plan your next escape</h2>
             <h6 className='explore-content-subtitle'>Family-friendly spots to explore</h6>
             <div className='explore-content-images-container'>
-                <div className="location-images location-images-antalya">
-                    <div className="location-images-title">
+                <div className="explore-location-images explore-location-images-antalya">
+                    <div className="explore-location-images-title">
                         <h1>Antalya</h1>
                     </div>
                 </div>
-                <div className="location-images location-images-barcelona">
-                    <div className="location-images-title">
+                <div className="explore-location-images explore-location-images-barcelona">
+                    <div className="explore-location-images-title">
                         <h1>Barcelona</h1>
                     </div>
                 </div>
-                <div className="location-images location-images-bath">
-                    <div className="location-images-title">
+                <div className="explore-location-images explore-location-images-bath">
+                    <div className="explore-location-images-title">
                         <h1>Bath</h1>
                     </div>
                 </div>
-                <div className="location-images location-images-brighton">
-                    <div className="location-images-title">
+                <div className="explore-location-images explore-location-images-brighton">
+                    <div className="explore-location-images-title">
                         <h1>Brighton</h1>
                     </div>
                 </div>

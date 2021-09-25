@@ -78,6 +78,9 @@ http://ionicframework.com/docs/theming/ */
   /* add ons */
   --ion-color-footer-active: #000000;
   --ion-color-explore-background: #FEC736;
+  --ion-color-search-form: #ffffff;
+  --ion-color-search-border: #E0E0E0;
+  --ion-color-search-button: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -153,6 +156,9 @@ http://ionicframework.com/docs/theming/ */
     /* add ons */
     --ion-color-footer-active: #ffffff;
     --ion-color-explore-background: #301D4A;
+    --ion-color-search-form: #333333;
+    --ion-color-search-border: #757575;
+    --ion-color-search-button: #ffffff;
   }
 
   /*
