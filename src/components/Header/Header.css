@@ -1,0 +1,10 @@
+ion-header{
+    padding: 2rem 0rem;
+}
+ion-header ion-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.header-md::after{
+    background-image: none;
+}

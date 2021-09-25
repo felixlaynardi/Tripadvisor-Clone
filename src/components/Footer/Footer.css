@@ -1,0 +1,24 @@
+ion-footer ion-title{
+    padding: 0;
+}
+ion-footer ion-toolbar ion-row ion-col{
+    padding: 0;
+}
+.active .footer-button{
+    padding-top: 0.5rem;
+    border-top: #84E9BD solid 0.5rem;
+    font-weight: bold;
+    color: var(--ion-color-footer-active);
+}
+.footer-icons{
+    font-size: 1.5rem;
+}
+.footer-button{
+    color: #757575;
+    cursor: pointer;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+a{
+    text-decoration: none;
+}

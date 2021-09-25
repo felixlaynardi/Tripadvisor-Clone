@@ -1,0 +1,7 @@
+{
+  "name": "TripAdvisor-Clone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
