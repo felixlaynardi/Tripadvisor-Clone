@@ -1,5 +1,7 @@
 import { IonHeader, IonTitle } from '@ionic/react';
 
+import { CgProfile } from "react-icons/cg";
+
 import './Header.css'
 
 interface Header{
@@ -10,6 +12,7 @@ const Header: React.FC<Header> = (props) => {
     return (
       <IonHeader className='explore-ion-header'>
           <IonTitle size="large">{props.pageTitle}</IonTitle>
+          <CgProfile className='explore-ion-header-icons'/>
       </IonHeader>
     );
   }
