@@ -5,6 +5,8 @@ import Header from '../components/Header/Header'
 
 import Explore from './Explore/Explore';
 import Search from './Search/Search'
+import Plan from './Plan/Plan'
+import Review from './Review/Review'
 
 import './PageRouter.css'
 
@@ -18,8 +20,11 @@ const PageContent: React.FC<PageRouter> = (props) => {
   else if(props.page == 'Search'){
     return <Search/>
   }
+  else if(props.page == 'Plan'){
+    return <Plan/>
+  }
   else{
-    return <ExploreContainer/>
+    return <Review/>
   }
 }
 const PageRouter: React.FC<PageRouter> = (props) => {

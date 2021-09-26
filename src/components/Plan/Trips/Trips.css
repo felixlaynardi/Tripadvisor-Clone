@@ -1,0 +1,33 @@
+.plan-content-trips-footer{
+    margin-top: 1.5rem;
+}
+.plan-content-trips-footer-title{
+    font-weight: bold;
+    font-size: .9rem;
+}
+.plan-content-trips-footer-form{
+    border: 2px solid var(--ion-color-plan-border);
+    background-color: var(--ion-color-plan-form);
+    color: #757575;
+
+    padding: 1rem;
+    margin-top: .5rem;
+    border-radius: .5rem;
+}
+.plan-content-trips-footer-button{
+    text-align: center;
+    background-color: var(--ion-color-plan-button);
+    color: var(--ion-color-plan-button-font);
+
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 10rem;
+}
+.plan-content-trips-footer-href{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+
+    margin-top: 2.5rem;
+    margin-bottom: 5rem;
+}

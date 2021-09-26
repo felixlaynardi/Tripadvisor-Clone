@@ -1,0 +1,16 @@
+.plan-content-saves-container{
+    text-align: center;
+}
+.plan-content-saves-title{
+    font-weight: bold;
+}
+.plan-content-saves-subtitle{
+    margin-top: 1rem;
+    opacity: .7;
+}
+.plan-content-saves-href{
+    font-weight: bold;
+    text-decoration: underline;
+
+    margin-top: 2rem;
+}

@@ -1,0 +1,9 @@
+.plan-content-bookings-container{
+    text-align: center;
+}
+.plan-content-bookings-href{
+    font-weight: bold;
+    text-decoration: underline;
+
+    margin-top: 2rem;
+}

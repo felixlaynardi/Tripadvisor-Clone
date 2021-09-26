@@ -1,0 +1,28 @@
+/* Plan Header */
+.plan-container{
+    padding: 0rem 1.0rem 1.0rem 1.0rem;
+}
+.ios .plan-container{
+    padding: 1.5rem;
+}
+/* Plan Buttons */
+.plan-button{
+    padding: 0rem 2rem 0rem 0rem;
+    background: none;
+
+    text-align: left;
+}
+.plan-button-title{
+    padding-bottom: 1rem;
+
+    font-size: 1rem;
+}
+.plan-button-title-active{
+    border-bottom: 0.15rem solid;
+
+    font-weight: bold;
+}
+/* Plan Content */
+.plan-content-container{
+    margin-top: 1rem;
+}
