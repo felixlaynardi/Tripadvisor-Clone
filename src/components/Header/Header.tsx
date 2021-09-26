@@ -1,5 +1,5 @@
-import { IonHeader, IonTitle, IonToolbar, IonRow, IonCol, useIonRouter } from '@ionic/react';
-import { BsHouseDoor, BsSearch, BsHeart, BsPencil } from "react-icons/bs";
+import { IonHeader, IonTitle } from '@ionic/react';
+
 import './Header.css'
 
 interface Header{

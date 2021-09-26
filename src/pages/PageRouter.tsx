@@ -1,5 +1,4 @@
 import { IonContent, IonPage } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
 import Footer from '../components/Footer/Footer';
 import Header from '../components/Header/Header'
 

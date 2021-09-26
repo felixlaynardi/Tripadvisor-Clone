@@ -1,4 +1,5 @@
 import { IonRow, IonCol } from '@ionic/react';
+
 import { IoHeart } from "react-icons/io5";
 import { GoLocation } from "react-icons/go";
 import { CgNotes } from "react-icons/cg";

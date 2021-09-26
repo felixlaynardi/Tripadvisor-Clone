@@ -1,17 +1,11 @@
-import { IonFooter, IonTitle, IonToolbar, IonRow, IonCol, useIonViewDidEnter } from '@ionic/react';
-import { BsHouseDoor, BsSearch, BsHeart, BsPencil } from "react-icons/bs";
+import { IonFooter, IonTitle, IonToolbar, IonRow, IonCol } from '@ionic/react';
 import { NavLink } from "react-router-dom";
+
+import { BsHouseDoor, BsSearch, BsHeart, BsPencil } from "react-icons/bs";
+
 import './Footer.css'
 
 const Footer: React.FC = () => {
-  // useIonViewDidEnter(() => {
-  //   var testElement = document.getElementsByClassName('active');
-  //   for(var i = 0; i < testElement.length; i++){
-  //     if(testElement[i].parentElement != null){
-  //       testElement[i].parentElement.add("selected")
-  //     }
-  //   }
-  // });
   return (
     <IonFooter>
       <IonToolbar>

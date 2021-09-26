@@ -75,16 +75,22 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
 
-  /* add ons */
+  /* footer */
   --ion-color-footer-active: #000000;
+  /* explore */
   --ion-color-explore-background: #FEC736;
+  /* search */
   --ion-color-search-form: #ffffff;
   --ion-color-search-border: #E0E0E0;
   --ion-color-search-button: #000000;
+  /* plan */
   --ion-color-plan-form: #ffffff;
   --ion-color-plan-border: #E0E0E0;
   --ion-color-plan-button: #E0E0E0;
   --ion-color-plan-button-font: #BABABA;
+  /* review */
+  --ion-color-review-button: #000000;
+  --ion-color-review-button-font: #ffffff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -157,16 +163,22 @@ http://ionicframework.com/docs/theming/ */
     --ion-color-light-shade: #1e2023;
     --ion-color-light-tint: #383a3e;
     
-    /* add ons */
+    /* footer */
     --ion-color-footer-active: #ffffff;
+    /* explore */
     --ion-color-explore-background: #301D4A;
+    /* search */
     --ion-color-search-form: #333333;
     --ion-color-search-border: #757575;
     --ion-color-search-button: #ffffff;
+    /* plan */
     --ion-color-plan-form: #333333;
     --ion-color-plan-border: #757575;
     --ion-color-plan-button: #545454;
     --ion-color-plan-button-font: #757575;
+    /* review */
+    --ion-color-review-button: #ffffff;
+    --ion-color-review-button-font: #000000;
   }
 
   /*

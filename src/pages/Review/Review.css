@@ -1,0 +1,37 @@
+/* Review Container */
+.review-container{
+    padding: 0rem 1.0rem 1.0rem 1.0rem;
+}
+.ios .review-container{
+    padding: 1.5rem;
+}
+/* Review Box */
+.review-box{
+    background-color: #F6D36D;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    margin-top: 1rem;
+    min-height: 25vh;
+    position: relative;
+}
+.review-box-write{
+    background-image: url('../../assets/images/illustration-review.png');
+}
+.review-box-upload{
+    background-image: url('../../assets/images/illustration-photo.png');
+}
+.review-button{
+    padding: 1rem;
+    border-radius: 10rem;
+
+    background-color: var(--ion-color-review-button);
+    color: var(--ion-color-review-button-font);
+    font-weight: bold;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

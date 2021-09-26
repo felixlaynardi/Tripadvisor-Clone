@@ -1,9 +1,31 @@
 import { IonRow, IonCol } from '@ionic/react';
 import { FaSearch } from "react-icons/fa";
 
+import SearchImagesContainer from '../../components/Search/SearchImagesContainer/SearchImagesContainer'
+
 import './Search.css'
 
 const Search: React.FC = () => {
+  const imagesTop = [
+    {
+      title: 'New York City',
+      class: 'new-york-city'
+    },
+    {
+      title: 'Singapore',
+      class: 'singapore'
+    }
+  ]
+  const imagesBottom = [
+    {
+      title: 'Rome',
+      class: 'rome'
+    },
+    {
+      title: 'Paris',
+      class: 'paris'
+    }
+  ]
   return (
     <IonRow className="search-container">
       <IonCol size='12' className='search-header-container'>
@@ -22,32 +44,10 @@ const Search: React.FC = () => {
       </IonCol>
       <IonCol size='12' className='search-content-container'>
         <h2 className='search-content-title'>Destinations travellers love</h2>
-        <div className='search-content-images-container'>
-            <div className="search-location-images-top">
-              <div className="search-location-images search-location-images-left search-location-images-new-york-city">
-                  <div className="search-location-images-title">
-                      <h4>New York City</h4>
-                  </div>
-              </div>
-              <div className="search-location-images search-location-images-singapore">
-                  <div className="search-location-images-title">
-                      <h4>Singapore</h4>
-                  </div>
-              </div>
-            </div>
-            <div className="search-location-images-bottom">
-              <div className="search-location-images search-location-images-left search-location-images-rome">
-                  <div className="search-location-images-title">
-                      <h4>Rome</h4>
-                  </div>
-              </div>
-              <div className="search-location-images search-location-images-paris">
-                  <div className="search-location-images-title">
-                      <h4>Paris</h4>
-                  </div>
-              </div>
-            </div>
-        </div>
+        <SearchImagesContainer 
+          imagesTop={imagesTop}
+          imagesBottom={imagesBottom}  
+        />
       </IonCol>
     </IonRow>
   );
