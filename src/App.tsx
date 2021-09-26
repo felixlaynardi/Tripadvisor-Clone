@@ -1,3 +1,4 @@
+import { setupConfig } from '@ionic/core';
 import { Redirect, Route } from 'react-router-dom';
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
@@ -22,6 +23,10 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 
 import PageRouter from './pages/PageRouter';
+
+setupConfig({
+  animated: false
+});
 
 const App: React.FC = () => (
   <IonApp>
